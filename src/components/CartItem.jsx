@@ -18,7 +18,7 @@ const CartItem = ({item, itemIndex}) => {
       <div className="flex border-b-2 border-black px-[1rem] py-[2rem] h-[29vh]">
 
         <div className="px-[1rem] min-w-[30%] flex justify-center">
-          <img alt="image" src={item.image} />
+          <img alt="item's image" src={item.image} />
         </div>
         <div className="px-[1rem]">
           <h1 className="font-semibold">{item.title}</h1>
